@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <!-- shortcut icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <!-- leafy -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="wrapper">
+      <div class="hero-title">
+        <h4>IP Address Tracker</h4>
+      </div>
+      <!-- input box -->
+      <div class="input-box">
+        <input type="text" placeholder="Search for any IP address or domain" tabindex="0">
+        <button class="submit">
+          <img src="/images/icon-arrow.svg" alt="submit">
+        </button>
+      </div>
+      <!-- ip tracker result -->
+      <div class="result">
+        <!-- ip address -->
+        <div class="ip-address_box">
+          <span>ip address</span>
+          <h4>192.212.174.101</h4>
+        </div>
+        <!-- location -->
+        <div class="ip-address_box">
+          <span>location</span>
+          <h4>Brooklyn, NY 10001</h4>
+        </div>
+        <!-- timezone -->
+        <div class="ip-address_box">
+          <span>timezone</span>
+          <h4>UTC-05:00</h4>
+        </div>
+        <!-- isp -->
+        <div class="ip-address_box">
+          <span>isp</span>
+          <h4>SpaceX starink</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- map -->
+  <section class="map">
+    <div id="map">
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+  <!-- 
+  Search for any IP address or domain
+
+  <!-- add offset value dynamically using the API -->
+</body>
+
+</html>
