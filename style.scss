@@ -76,6 +76,15 @@ input[type="text"] {
   justify-content: center;
   align-items: center;
   background-color: var(--Very-Dark-Gray);
+  transition: var(--transition);
+}
+
+.submit:hover {
+  background-color: var(--Dark-Gray);
+}
+
+.submit:active {
+  background-color: var(--Very-Dark-Gray);
 }
 
 // <!-- ip tracker result -->
